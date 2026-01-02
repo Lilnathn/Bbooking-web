@@ -1,25 +1,58 @@
-header {
-    background-color: blue;
-    height: 118px;
-    width: auto;
-    text-align: center;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    padding: 0 40px;
+   background-color: blue;
 }
-nav {
-    background-color: red;
-    height: 50px;
-    width: auto;
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 main {
     background-color: white;
-    height: 600px;
+    height: 400px;
     width: auto;
+    padding: 20px 40px;
+    
 }
 footer {
     background-color: black;
     height: 100px;
     width: auto;
 }
-h2 {
-    color: aqua;
-
+h4{
+    text-align: center;
 }
+p {
+    color: green;
+}
+footer.footer {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    padding: 20px 40px;
+    text-align: center;
+}
+.footer a {
+    color: #a8d8ff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
