@@ -1,0 +1,25 @@
+header {
+    background-color: blue;
+    height: 118px;
+    width: auto;
+    text-align: center;
+}
+nav {
+    background-color: red;
+    height: 50px;
+    width: auto;
+}
+main {
+    background-color: white;
+    height: 600px;
+    width: auto;
+}
+footer {
+    background-color: black;
+    height: 100px;
+    width: auto;
+}
+h2 {
+    color: aqua;
+
+}
